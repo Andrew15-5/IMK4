@@ -3,6 +3,10 @@
 Here you can find lab files and corresponding data (if provided),
 as well as books.
 
+>Note: books are archived (in parts) because their names contain cyrillic
+characters and these files are poorly displayed in git. Also big files
+(i.e. books archived by whole semester instead of parts) are harder to maintain.
+
 Repository acronyms and abbreviations:
 
 * IMK - Informatics and Management Kaluga
@@ -11,5 +15,8 @@ Repository acronyms and abbreviations:
 <!-- * hlp - High-level programming -->
 
 ---
-Yandex.Disk link to the same repository folder for your convenience:
-<https://yadi.sk/d/3-ebxev-pqbrZQ>
+Yandex.Disk link to the this repository folder for your convenience:
+<https://yadi.sk/d/mMkxVZUXh9EYgw>
+
+Yandex.Disk link to all books (by semester; unarchived):
+<https://yadi.sk/d/-HWWueYTNJKCrg>
