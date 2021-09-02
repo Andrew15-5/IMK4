@@ -1,0 +1,3 @@
+# Exclude unarchived books
+books/books_*_semester/*.pdf
+books/books_*_semester/*.djvu
