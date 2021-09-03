@@ -11,8 +11,8 @@ Repository acronyms and abbreviations:
 
 * IMK - Informatics and Management Kaluga
 * mdpl - Machine-dependent programming languages
+* hlp - High-level programming
 * lab - laboratory work
-<!-- * hlp - High-level programming -->
 
 ---
 Yandex.Disk link to the this repository folder for your convenience:
