@@ -3,10 +3,6 @@
 Here you can find lab files and corresponding data (if provided),
 as well as books.
 
->Note: books are archived (in parts) because their names contain cyrillic
-characters and these files are poorly displayed in git. Also big files
-(i.e. books archived by whole semester instead of parts) are harder to maintain.
-
 Repository acronyms and abbreviations:
 
 * IMK - Informatics and Management Kaluga
@@ -14,9 +10,25 @@ Repository acronyms and abbreviations:
 * hlp - High-level programming
 * lab - laboratory work
 
----
+## Notes
+
+Books are archived (in parts) because their names contain cyrillic
+characters and these files are poorly displayed in git. Also big files
+(i.e. books archived by whole semester instead of parts) are harder to maintain.
+You can find same unarchived books in <a href="#links">Links</a> section.
+
+Every .doc(x) file has a .pdf copy in pdf/ folder (which is located
+in the same directory).\
+.pdf files are generated using libreoffice:
+
+```shell
+libreoffice --convert-to pdf file.doc
+```
+
+## Links
+
 Yandex.Disk link to the this repository folder for your convenience:
-<https://yadi.sk/d/mMkxVZUXh9EYgw>
+<https://yadi.sk/d/-cBfNyfBSh_lOA>
 
 Yandex.Disk link to all books (by semester; unarchived):
 <https://yadi.sk/d/-HWWueYTNJKCrg>
