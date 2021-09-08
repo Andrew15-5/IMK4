@@ -8,6 +8,7 @@ Repository acronyms and abbreviations:
 * IMK - Informatics and Management Kaluga
 * mdpl - Machine-dependent programming languages
 * hlp - High-level programming
+* dm - Discrete Mathematics
 * lab - laboratory work
 
 ## Notes
