@@ -9,6 +9,7 @@ Repository acronyms and abbreviations:
 * mdpl - Machine-dependent programming languages
 * hlp - High-level programming
 * dm - Discrete Mathematics
+* foe - Fundamentals of electronics
 * lab - laboratory work
 
 ## Notes
