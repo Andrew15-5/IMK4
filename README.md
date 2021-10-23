@@ -1,7 +1,6 @@
 # IMK4 - place where all important files are stored
 
-Here you can find lab files and corresponding data (if provided),
-as well as books, lectures and more.
+Here you can find lab and hw files, as well as books, lectures and more.
 
 Repository acronyms and abbreviations:
 
@@ -11,6 +10,8 @@ Repository acronyms and abbreviations:
 * dm - Discrete Mathematics
 * foe - Fundamentals of electronics
 * lab - laboratory work
+* hw - homework
+* ex - exercise
 
 ## Notes
 
