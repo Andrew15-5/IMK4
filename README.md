@@ -20,7 +20,7 @@ characters and these files are poorly displayed in git. Also big files
 (i.e. books archived by whole semester instead of parts) are harder to maintain.
 You can find same unarchived books in <a href="#links">Links</a> section.
 
-Every .doc(x)/.pptx file has a .pdf copy in pdf/ folder (which is located
+Every .doc(x)/.pptx file has a .pdf copy (both files are located
 in the same directory).\
 .pdf files are generated using libreoffice:
 
