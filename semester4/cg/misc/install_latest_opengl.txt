@@ -1,0 +1,3 @@
+Home page: http://freeglut.sourceforge.net
+Installation: http://freeglut.sourceforge.net/docs/install.php
+Installation command using apt: sudo apt install freeglut3-dev # extra things are in mesa-utils and libglew-dev
