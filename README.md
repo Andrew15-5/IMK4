@@ -28,6 +28,35 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 ## Repository structure
 
+```text
+IMK4
+├── semester
+│   ├── books
+│   │   ├── part<number>.zip
+│   │   ├── book.*
+│   │   ...
+│   ├── subject
+│   │   ├── exam
+│   │   │   ├── problems
+│   │   │   │   ├── subject_exam_problems.pdf
+│   │   │   │   ...
+│   │   │   └── questions
+│   │   │       ├── subject_exam_questions.pdf
+│   │   │       ...
+│   │   ├── labs (hws/lectures)
+│   │   │   ├── lab<number>
+│   │   │   │   ├── subject_lab<number>.pdf
+│   │   │   │   ├── subject_lab<number>_deadline (hw)
+│   │   │   │   ...
+│   │   │   ...
+│   │   └── misc
+│   │       ├── anything
+│   │       ...
+...
+```
+
+Exception: `lecture<start number>-<end number>` (some lectures can be united)
+
 ### Deadline file
 
 Starting from 4th semester each lab/hw has corresponding file with
