@@ -2,16 +2,44 @@
 
 Here you can find lab and hw files, as well as books, lectures and more.
 
-Repository acronyms and abbreviations:
+## Repository acronyms and abbreviations
 
-* IMK - Informatics and Management Kaluga
-* mdpl - Machine-dependent programming languages
-* hlp - High-level programming
+* cg - Computer Graphics
 * dm - Discrete Mathematics
-* foe - Fundamentals of electronics
-* lab - laboratory work
-* hw - homework
 * ex - exercise
+* foe - Fundamentals of Electronics
+* hlp - High-level Programming
+* hw - homework
+* IMK - Informatics and Management Kaluga
+* lab - laboratory work
+* mdpl - Machine-dependent Programming Languages
+
+## Repository structure
+
+### Deadline file
+
+Starting from 4<sup>th</sup> semester each lab/hw has corresponding file with
+deadline date and time.\
+Deadline files are named using folowing format:
+
+```text
+<subject abbreviation>_<lab/hw><ordinal number>_deadline
+```
+
+and contains one formated line folowing LF character:
+
+```text
+<Month> <day of month> hh:mm
+```
+
+Example would be file `cg_lab1_deadline` with text in it:
+
+```text
+February 27 12:00
+```
+
+But there's an exception: if deadline for lab/hw wasn't provided, then the
+deadline file will be empty.
 
 ## Notes
 
@@ -35,3 +63,4 @@ Yandex.Disk link to the this repository folder for your convenience:
 
 Yandex.Disk link to all books (by semester; unarchived):
 <https://yadi.sk/d/-HWWueYTNJKCrg>
+
