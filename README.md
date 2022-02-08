@@ -4,21 +4,30 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 ## Repository acronyms and abbreviations
 
-* cg - Computer Graphics
-* dm - Discrete Mathematics
+### General
+
 * ex - exercise
-* foe - Fundamentals of Electronics
-* hlp - High-level Programming
 * hw - homework
 * IMK - Informatics and Management Kaluga
 * lab - laboratory work
+
+### 3rd semester
+
+* dm - Discrete Mathematics
+* foe - Fundamentals of Electronics
+* hlp - High-level Programming
 * mdpl - Machine-dependent Programming Languages
+
+### 4th semester
+
+* cg - Computer Graphics
+* latoa - Logic and Theory of Algorithms
 
 ## Repository structure
 
 ### Deadline file
 
-Starting from 4<sup>th</sup> semester each lab/hw has corresponding file with
+Starting from 4th semester each lab/hw has corresponding file with
 deadline date and time.\
 Deadline files are named using folowing format:
 
