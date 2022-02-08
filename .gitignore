@@ -1,4 +1,3 @@
 # Exclude unarchived books
-semester*/books/*.pdf
-semester*/books/*.djvu
-*.lyx
+**/books/*.pdf
+**/books/*.djvu

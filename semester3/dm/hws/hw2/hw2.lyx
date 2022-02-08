@@ -1,0 +1,1670 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage[g]{esvect}
+\usepackage{bigints}
+\usepackage{graphicx}
+\usepackage[english,main=russian]{babel}
+\DeclareMathOperator{\im}{im}
+\newcommand{\parag}[0]{\mathsection}
+\newcommand{\infinity}[0]{\infty}
+\newcommand{\inUo}[0]{\mathring{\bigcup}}
+\newcommand{\inU}[0]{\bigcup}
+\newcommand{\union}[0]{\cup}
+\newcommand{\intersection}[0]{\cap}
+\newcommand{\Sc}[1]{\scalebox{1.5}[1.5]{#1}}
+\newcommand{\Scone}[1]{\scalebox{1}[1]{#1}}
+\newcommand{\Sca}[2]{\scalebox{#1}[#1]{#2}}
+\newcommand{\degree}[0]{\text{\textdegree}}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+theorems-ams-extended
+enumitem
+fix-cm
+fixltx2e
+fixme
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8x
+\fontencoding global
+\font_roman "default" "Times New Roman"
+\font_sans "default" "default"
+\font_typewriter "default" "Fira Code"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "95col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size largest
+Домашнее задание 2 
+\begin_inset Quotes qld
+\end_inset
+
+Дискретная математика
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "95col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size largest
+Тема: 
+\begin_inset Quotes qld
+\end_inset
+
+Рекуррентные соотношения.
+ Графы
+\begin_inset Quotes qrd
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Задание 1.
+ Решить рекуррентное соотношение
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=6a_{n-1}-9a_{n-2}+2\cdot4^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=7$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=16$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=5a_{n-1}+6a_{n-2}+100n$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=2$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=10$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=7a_{n-1}-12a_{n-2}+3\cdot4^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=11$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=23$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=12a_{n-1}-36a_{n-2}+4\cdot3^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=3$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=18$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=2a_{n-1}+15a_{n-2}+32\cdot\left(-3\right)^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=8$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=12$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=11a_{n-1}-28a_{n-2}+15\cdot4^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=6$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=28$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-8a_{n-1}-16a_{n-2}+2\cdot4^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=2$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=20$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-8a_{n-1}+20a_{n-2}-27\cdot2^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=6$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=15$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-8a_{n-1}-12a_{n-2}-8\cdot\left(-2\right)^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=6$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=16$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-14a_{n-1}-49a_{n-2}+2\cdot\left(-7\right)^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=6$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=33$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=14a_{n-1}-48a_{n-2}+3\cdot6^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=4$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=12$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=14a_{n-1}+15a_{n-2}+16\cdot\left(-1\right)^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=24$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=7$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=6a_{n-1}-9a_{n-2}+2\cdot3^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=6$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=27$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-6a_{n-1}+16a_{n-2}+10\cdot2^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=8$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=15$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-10a_{n-1}-24a_{n-2}+4\cdot\left(-6\right)^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=4$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=12$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=-10a_{n-1}-25a_{n-2}+108\cdot n$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=4$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=16$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=9a_{n-1}+22a_{n-2}+13\cdot11^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=9$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=25$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=11a_{n-1}-30a_{n-2}+3\cdot5^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=6$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=22$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=8a_{n-1}-16a_{n-2}+3\cdot4^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=3$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=10$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=a_{n-1}+20a_{n-2}+9\cdot5^{n}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=24$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=10$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Задание 2.
+ Для неориентированного графа 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+ составить список смежности, матрицу смежности, матрицу инцидентности.
+ Множество вершин 
+\begin_inset Formula $V=\left\{ x_{1},x_{2},x_{3},x_{4}\right\} $
+\end_inset
+
+, множество 
+\begin_inset Formula $E$
+\end_inset
+
+ указано ниже.
+ Изобразить данный граф на чертеже.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot2,\left(x_{1},x_{3}\right),\left(x_{1},x_{4}\right)\cdot3,\left(x_{2},x_{3}\right),\left(x_{3},x_{4}\right)\cdot2,\left(x_{1},x_{1}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{3}\right),\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right)\cdot2,\left(x_{3},x_{4}\right)\cdot3,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot2,\left(x_{1},x_{3}\right),\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right)\cdot3,\left(x_{3},x_{4}\right)\cdot2,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot3,\left(x_{1},x_{3}\right),\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right),\left(x_{3},x_{4}\right)\cdot2,\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{4}\right)\cdot3,\left(x_{2},x_{4}\right),\left(x_{2},x_{3}\right)\cdot2,\left(x_{3},x_{4}\right)\cdot2,\left(x_{1},x_{1}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot2,\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right),\left(x_{2},x_{4}\right),\left(x_{3},x_{4}\right)\cdot3,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{3}\right),\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right)\cdot3,\left(x_{3},x_{4}\right)\cdot2,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot3,\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right),\left(x_{2},x_{4}\right)\cdot2,\left(x_{3},x_{4}\right),\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{3}\right)\cdot2,\left(x_{1},x_{4}\right)\cdot3,\left(x_{2},x_{3}\right),\left(x_{3},x_{4}\right)\cdot2,\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right)\cdot2,\left(x_{2},x_{4}\right)\cdot2,\left(x_{3},x_{4}\right)\cdot3,\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right)\cdot3,\left(x_{2},x_{4}\right)\cdot2,\left(x_{3},x_{4}\right)\cdot2,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot3,\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right),\left(x_{2},x_{4}\right),\left(x_{3},x_{4}\right)\cdot2,\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot2,\left(x_{1},x_{4}\right)\cdot3,\left(x_{2},x_{3}\right)\cdot2,\left(x_{2},x_{4}\right),\left(x_{3},x_{4}\right),\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot2,\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right)\cdot2,\left(x_{2},x_{4}\right),\left(x_{3},x_{4}\right)\cdot3,\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right)\cdot3,\left(x_{2},x_{4}\right),\left(x_{3},x_{4}\right)\cdot2,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot3,\left(x_{1},x_{3}\right),\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right),\left(x_{3},x_{4}\right)\cdot2,\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right)\cdot2,\left(x_{1},x_{4}\right)\cdot3,\left(x_{2},x_{3}\right),\left(x_{2},x_{4}\right),\left(x_{3},x_{4}\right),\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{2}\right),\left(x_{1},x_{3}\right)\cdot2,\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right)\cdot2,\left(x_{3},x_{4}\right)\cdot3,\left(x_{3},x_{3}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{3}\right)\cdot3,\left(x_{1},x_{4}\right)\cdot2,\left(x_{2},x_{3}\right),\left(x_{3},x_{4}\right)\cdot3,\left(x_{3},x_{3}\right),\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E=\left\{ \left(x_{1},x_{3}\right)\cdot3,\left(x_{1},x_{4}\right),\left(x_{2},x_{3}\right)\cdot3,\left(x_{3},x_{4}\right)\cdot3,\left(x_{1},x_{1}\right),\left(x_{4},x_{4}\right)\right\} ;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Задание 3.
+ По заданной матрице весов ориентированного графа 
+\begin_inset Formula $G$
+\end_inset
+
+ найти величину минимального пути и сам путь от вершины 
+\begin_inset Formula $s=x_{1}$
+\end_inset
+
+ до вершины 
+\begin_inset Formula $t=x_{6}$
+\end_inset
+
+ по алгоритму Дейкстры.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 10 & 13 & \infty & \infty\\
+\infty & - & 8 & 9 & 13 & \infty\\
+\infty & \infty & - & 5 & 3 & 6\\
+\infty & \infty & \infty & - & 8 & 10\\
+\infty & \infty & \infty & \infty & - & 9\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\;\;$
+\end_inset
+
+8.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 10 & 12 & \infty & \infty & \infty\\
+\infty & - & 11 & 9 & \infty & 19\\
+\infty & \infty & - & \infty & 10 & \infty\\
+\infty & \infty & 13 & - & 11 & 10\\
+\infty & \infty & \infty & \infty & - & 6\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 11 & 14 & \infty & \infty & \infty\\
+\infty & - & 8 & 10 & 15 & \infty\\
+\infty & \infty & - & 11 & 16 & 20\\
+\infty & \infty & \infty & - & \infty & 12\\
+\infty & \infty & \infty & 11 & - & 14\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 11 & \infty & 14 & 15 & \infty\\
+\infty & - & 13 & \infty & \infty & \infty\\
+\infty & \infty & - & \infty & \infty & 13\\
+\infty & 7 & 11 & - & 9 & \infty\\
+\infty & 11 & 10 & \infty & - & 14\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\;\;$
+\end_inset
+
+9.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 7 & 2 & \infty & 13 & \infty\\
+\infty & - & \infty & \infty & 6 & \infty\\
+\infty & 2 & - & 1 & 3 & 11\\
+\infty & \infty & \infty & - & \infty & 5\\
+\infty & \infty & \infty & 3 & - & 5\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 9 & 7 & 13 & \infty & \infty\\
+\infty & - & \infty & \infty & 15 & \infty\\
+\infty & 5 & - & \infty & \infty & \infty\\
+\infty & 6 & 7 & - & 8 & 10\\
+\infty & \infty & \infty & \infty & - & 12\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 8 & 7 & 18 & \infty\\
+\infty & - & 11 & \infty & \infty & \infty\\
+\infty & \infty & - & \infty & \infty & 17\\
+\infty & 10 & 12 & - & 6 & \infty\\
+\infty & 7 & 8 & \infty & - & 11\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 10 & 11 & 6 & \infty & \infty\\
+\infty & - & 13 & 8 & 11 & 17\\
+\infty & \infty & - & 5 & 6 & 15\\
+\infty & \infty & \infty & - & 7 & \infty\\
+\infty & 13 & 14 & 15 & - & 9\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 4 & 8 & \infty & \infty & \infty\\
+\infty & - & \infty & 3 & \infty & 10\\
+\infty & 3 & - & 4 & 3 & \infty\\
+\infty & \infty & \infty & - & \infty & 4\\
+\infty & 2 & \infty & 5 & - & 7\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 6 & 9 & \infty & \infty\\
+\infty & - & \infty & 3 & \infty & 14\\
+\infty & 3 & - & 3 & 4 & 16\\
+\infty & \infty & \infty & - & \infty & 4\\
+\infty & \infty & \infty & 3 & - & 8\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & \infty & 9 & 12 & \infty\\
+\infty & - & 6 & \infty & \infty & \infty\\
+\infty & \infty & - & \infty & \infty & 6\\
+\infty & 4 & 8 & - & 6 & 14\\
+\infty & 7 & 5 & \infty & - & 10\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 4 & \infty & 10 & \infty\\
+\infty & - & \infty & 8 & \infty & 13\\
+\infty & 6 & - & 5 & 8 & \infty\\
+\infty & \infty & \infty & - & \infty & 8\\
+\infty & \infty & \infty & 4 & - & 10\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 7 & 9 & \infty & 11 & \infty\\
+\infty & - & \infty & 6 & \infty & 13\\
+\infty & 6 & - & 5 & 6 & \infty\\
+\infty & \infty & \infty & - & \infty & 7\\
+\infty & 4 & \infty & 6 & - & 8\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 4 & 9 & 8 & \infty & \infty\\
+\infty & - & 2 & \infty & \infty & \infty\\
+\infty & \infty & - & \infty & \infty & 3\\
+\infty & 2 & 4 & - & 6 & \infty\\
+\infty & 2 & \infty & \infty & - & 3\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 12 & 10 & \infty & 11 & \infty\\
+\infty & - & \infty & 10 & 7 & 15\\
+\infty & 8 & - & 7 & 10 & \infty\\
+\infty & \infty & \infty & - & \infty & 11\\
+\infty & \infty & \infty & 6 & - & 12\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 8 & 11 & 10 & \infty\\
+\infty & - & \infty & 9 & 7 & 15\\
+\infty & 8 & - & 7 & 4 & 11\\
+\infty & \infty & \infty & - & 6 & 7\\
+\infty & \infty & \infty & \infty & - & 9\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 9 & 13 & 12 & \infty\\
+\infty & - & 5 & 9 & 6 & \infty\\
+\infty & \infty & - & 6 & \infty & 15\\
+\infty & \infty & \infty & - & 8 & 9\\
+\infty & \infty & \infty & \infty & - & 8\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 15 & 10 & \infty & \infty & \infty\\
+\infty & - & \infty & \infty & 12 & 18\\
+\infty & 10 & - & 9 & 12 & 19\\
+\infty & \infty & \infty & - & \infty & 13\\
+\infty & \infty & \infty & 11 & - & 14\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 7 & 15 & \infty & 14 & \infty\\
+\infty & - & 7 & 16 & \infty & \infty\\
+\infty & \infty & - & 19 & \infty & 21\\
+\infty & \infty & \infty & - & \infty & 17\\
+\infty & 13 & 14 & 15 & - & 18\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 8 & 10 & \infty & \infty & \infty\\
+\infty & - & 10 & 9 & 12 & \infty\\
+\infty & \infty & - & 10 & 12 & 7\\
+\infty & \infty & \infty & - & 9 & 13\\
+\infty & \infty & \infty & \infty & - & 11\\
+\infty & \infty & \infty & \infty & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Задание 4.
+ Для неориентированного графа 
+\begin_inset Formula $G$
+\end_inset
+
+, заданного матрицей весов, построить дерево покрытия минимального веса.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 10 & \infty & 5 & \infty & \infty & 14\\
+10 & - & 6 & 2 & 4 & 8 & \infty\\
+\infty & 6 & - & 3 & 1 & 1 & \infty\\
+5 & 2 & 3 & - & 6 & \infty & 3\\
+\infty & 4 & 1 & 6 & - & 5 & \infty\\
+\infty & 8 & 1 & \infty & 5 & - & 2\\
+14 & \infty & \infty & 3 & \infty & 2 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\;\;$
+\end_inset
+
+8.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 9 & 10 & 15 & \infty & \infty & 11\\
+9 & - & 14 & 12 & \infty & 8 & 15\\
+10 & 14 & - & 10 & 9 & \infty & 6\\
+15 & 12 & 10 & - & 11 & 12 & \infty\\
+\infty & \infty & 9 & 11 & - & 12 & 11\\
+\infty & 8 & \infty & 12 & 12 & - & \infty\\
+11 & 15 & 6 & \infty & 11 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+15.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 5 & \infty & 10 & 9 & \infty\\
+6 & - & 4 & 5 & 3 & \infty & 6\\
+5 & 4 & - & 6 & 7 & \infty & 8\\
+\infty & 5 & 6 & - & 3 & 6 & \infty\\
+10 & 3 & 7 & 3 & - & 8 & 7\\
+9 & \infty & \infty & 6 & 8 & - & 5\\
+\infty & 6 & 8 & \infty & 7 & 5 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 8 & 9 & \infty & \infty & \infty & 6\\
+8 & - & 7 & 6 & 9 & \infty & \infty\\
+9 & 7 & - & 6 & 10 & 5 & \infty\\
+\infty & 6 & 6 & - & 8 & 7 & \infty\\
+\infty & 9 & 10 & 8 & - & 4 & 5\\
+\infty & \infty & 5 & 7 & 4 & - & 6\\
+6 & \infty & \infty & \infty & 5 & 6 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\;\;$
+\end_inset
+
+9.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 8 & 9 & \infty & \infty & \infty & 6\\
+8 & - & 7 & 6 & 9 & \infty & \infty\\
+9 & 7 & - & 6 & 10 & 5 & \infty\\
+\infty & 6 & 6 & - & 8 & 7 & \infty\\
+\infty & 9 & 10 & 8 & - & 4 & 5\\
+\infty & \infty & 5 & 7 & 4 & - & 6\\
+6 & \infty & \infty & \infty & 5 & 6 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+16.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 8 & \infty & 3 & 6 & \infty\\
+6 & - & 11 & 12 & 9 & \infty & 5\\
+8 & 11 & - & 7 & 8 & \infty & 9\\
+\infty & 12 & 7 & - & 6 & 5 & 10\\
+3 & 9 & 8 & 6 & - & 8 & \infty\\
+6 & \infty & \infty & 5 & 8 & - & 7\\
+\infty & 5 & 9 & 10 & \infty & 7 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 10 & 11 & \infty & 14 & \infty & 12\\
+10 & - & 10 & 9 & \infty & \infty & 7\\
+11 & 10 & - & 12 & 10 & \infty & 6\\
+\infty & 9 & 12 & - & 9 & 12 & \infty\\
+14 & \infty & 10 & 9 & - & 11 & 12\\
+\infty & \infty & \infty & 12 & 11 & - & \infty\\
+12 & 7 & 6 & \infty & 12 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+10.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 8 & 4 & 9 & \infty & 6 & \infty\\
+8 & - & 11 & 6 & 10 & \infty & 8\\
+4 & 11 & - & 7 & \infty & 9 & \infty\\
+9 & 6 & 7 & - & 5 & 6 & \infty\\
+\infty & 10 & \infty & 5 & - & 7 & 6\\
+6 & \infty & 9 & 6 & 7 & - & 8\\
+\infty & 8 & \infty & \infty & 6 & 8 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+17.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 8 & \infty & \infty & 8 & \infty\\
+5 & - & 7 & 10 & \infty & 8 & \infty\\
+8 & 7 & - & 4 & 7 & 7 & \infty\\
+\infty & 10 & 4 & - & 6 & 9 & 4\\
+\infty & \infty & 7 & 6 & - & 3 & 5\\
+8 & 8 & 7 & 9 & 3 & - & 6\\
+\infty & \infty & \infty & 4 & 5 & 6 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 3 & 5 & \infty & 6 & \infty & \infty\\
+3 & - & 10 & 6 & 8 & \infty & 4\\
+5 & 10 & - & 5 & 7 & \infty & 9\\
+\infty & 6 & 5 & - & 8 & 7 & \infty\\
+6 & 8 & 7 & 8 & - & 9 & 11\\
+\infty & \infty & \infty & 7 & 9 & - & \infty\\
+\infty & 4 & 9 & \infty & 11 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+11.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 10 & \infty & 5 & \infty & 6 & \infty\\
+10 & - & 6 & 1 & 4 & \infty & 5\\
+\infty & 6 & - & 3 & 1 & 2 & \infty\\
+5 & 1 & 3 & - & 3 & \infty & 5\\
+\infty & 4 & 1 & 3 & - & 4 & 2\\
+6 & \infty & 2 & \infty & 4 & - & \infty\\
+\infty & 5 & \infty & 5 & 2 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+18.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 5 & \infty & 10 & 9 & \infty\\
+6 & - & 4 & 5 & 3 & \infty & 6\\
+5 & 4 & - & 6 & 7 & \infty & \infty\\
+\infty & 5 & 6 & - & 3 & 6 & \infty\\
+10 & 3 & 7 & 3 & - & 8 & 7\\
+9 & \infty & \infty & 6 & 8 & - & 5\\
+\infty & 6 & \infty & \infty & 7 & 5 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 8 & \infty & 3 & 6 & \infty\\
+6 & - & 11 & 12 & 9 & \infty & 5\\
+8 & 11 & - & 7 & 8 & \infty & 9\\
+\infty & 12 & 7 & - & 6 & 5 & 10\\
+3 & 9 & 8 & 6 & - & 8 & \infty\\
+6 & \infty & \infty & 5 & 8 & - & 7\\
+\infty & 5 & 9 & 10 & \infty & 7 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+12.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 11 & 14 & \infty & \infty & 8\\
+5 & - & 5 & 7 & \infty & \infty & 8\\
+11 & 5 & - & 4 & 8 & 6 & \infty\\
+14 & 7 & 4 & - & 7 & \infty & 11\\
+\infty & \infty & 8 & 7 & - & 3 & 5\\
+\infty & \infty & 6 & \infty & 3 & - & 6\\
+8 & 8 & \infty & 11 & 5 & 6 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+19.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 11 & 14 & \infty & \infty & 8\\
+5 & - & 5 & 7 & \infty & \infty & 8\\
+11 & 5 & - & 4 & 8 & 6 & \infty\\
+14 & 7 & 4 & - & 7 & \infty & 11\\
+\infty & \infty & 8 & 7 & - & 3 & 5\\
+\infty & \infty & 6 & \infty & 3 & - & 6\\
+8 & 8 & \infty & 11 & 5 & 6 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 8 & \infty & 3 & 6 & \infty\\
+6 & - & 11 & 12 & 9 & \infty & 5\\
+8 & 11 & - & 7 & 8 & \infty & 9\\
+\infty & 12 & 7 & - & 6 & 5 & 10\\
+3 & 9 & 8 & 6 & - & 8 & \infty\\
+6 & \infty & \infty & 5 & 8 & - & 7\\
+\infty & 5 & 9 & 10 & \infty & 7 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+13.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 6 & 5 & \infty & 8 & \infty & 10\\
+6 & - & 9 & 7 & 6 & \infty & \infty\\
+5 & 9 & - & 8 & 9 & \infty & 11\\
+\infty & 7 & 8 & - & 5 & 6 & \infty\\
+8 & 6 & 9 & 5 & - & 7 & 9\\
+\infty & \infty & \infty & 6 & 7 & - & \infty\\
+10 & \infty & 11 & \infty & 9 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+20.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 11 & 5 & 8 & \infty & 8 & \infty\\
+11 & - & 6 & 13 & \infty & 10 & \infty\\
+5 & 6 & - & \infty & 7 & \infty & 9\\
+8 & 13 & \infty & - & 3 & 5 & 8\\
+\infty & \infty & 7 & 3 & - & 9 & 7\\
+8 & 10 & \infty & 5 & 9 & - & \infty\\
+\infty & \infty & 9 & 8 & 7 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="0.3cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+7.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 3 & 8 & \infty & 3 & 6 & \infty\\
+3 & - & 7 & 6 & \infty & \infty & 4\\
+8 & 7 & - & 4 & 6 & \infty & 10\\
+\infty & 6 & 4 & - & 5 & 7 & \infty\\
+3 & \infty & 6 & 5 & - & 8 & 9\\
+6 & \infty & \infty & 7 & 8 & - & \infty\\
+\infty & 4 & 10 & \infty & 9 & \infty & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+14.
+ 
+\begin_inset Formula $\begin{pmatrix}- & 5 & 8 & \infty & \infty & 8 & \infty\\
+5 & - & 7 & 10 & \infty & 8 & \infty\\
+8 & 7 & - & 4 & 7 & 7 & \infty\\
+\infty & 10 & 4 & - & 6 & 9 & 4\\
+\infty & \infty & 7 & 6 & - & 3 & 5\\
+8 & 8 & 7 & 9 & 3 & - & 6\\
+\infty & \infty & \infty & 4 & 5 & 6 & -
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
