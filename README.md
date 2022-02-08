@@ -10,6 +10,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 * hw - homework
 * IMK - Informatics and Management Kaluga
 * lab - laboratory work
+* misc - miscellaneous
 
 ### 3rd semester
 
