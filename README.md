@@ -20,6 +20,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 ### 4th semester
 
+* calg - Computational Algorithms
 * cg - Computer Graphics
 * latoa - Logic and Theory of Algorithms
 * tasod - Types and Structures of Data
