@@ -76,7 +76,7 @@ and contains one formated line folowing LF character:
 Example would be file `cg_lab1_deadline` with text in it:
 
 ```text
-February 27 12:00
+February 27 23:59
 ```
 
 But there's an exception: if deadline for lab/hw wasn't provided, then the
