@@ -44,6 +44,9 @@ IMK4
 │   │   │       ├── subject_exam_questions.pdf
 │   │   │       ...
 │   │   ├── labs (hws/lectures)
+│   │   │   ├── guidelines
+│   │   │   │   ├── subject_lab_guidelines.pdf
+│   │   │   │   ...
 │   │   │   ├── lab<number>
 │   │   │   │   ├── subject_lab<number>.pdf
 │   │   │   │   ├── subject_lab<number>_deadline (hw)
