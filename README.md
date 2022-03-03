@@ -102,9 +102,12 @@ libreoffice --convert-to pdf file.doc
 
 ## Links
 
-Yandex.Disk link to the this repository folder for your convenience:
-<https://yadi.sk/d/-cBfNyfBSh_lOA>
+Yandex.Disk link to [this repository](https://github.com/Andrew15-5/IMK4)'s folder
+for your convenience: <https://yadi.sk/d/-cBfNyfBSh_lOA>
 
-Yandex.Disk link to all books (by semester; unarchived):
-<https://yadi.sk/d/-HWWueYTNJKCrg>
+Yandex.Disk links to books (unarchived):
 
+* [Semester 1](https://yadi.sk/d/8GMdxPS0u2FZkA)
+* [Semester 2](https://yadi.sk/d/eyVk60MeJabWvQ)
+* [Semester 3](https://yadi.sk/d/np_Smxo_xZjSyg)
+* [Semester 4](https://yadi.sk/d/8ExS3demIAFEIQ)
