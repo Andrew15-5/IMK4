@@ -22,8 +22,10 @@ Here you can find lab and hw files, as well as books, lectures and more.
 ### 4th semester
 
 * calg - Computational Algorithms
+* carch - Computer Architecture
 * cg - Computer Graphics
 * latoa - Logic and Theory of Algorithms
+* oop - Object-Oriented Programming
 * tasod - Types and Structures of Data
 
 ## Repository structure
