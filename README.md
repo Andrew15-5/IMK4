@@ -45,22 +45,25 @@ IMK4
 │   │   │   └── questions
 │   │   │       ├── subject_exam_questions.pdf
 │   │   │       ...
-│   │   ├── labs (hws/lectures)
-│   │   │   ├── guidelines
+│   │   ├── labs (hws)
+│   │   │   ├── guidelines (general)
 │   │   │   │   ├── subject_lab_guidelines.pdf
 │   │   │   │   ...
-│   │   │   ├── lab<number>
+│   │   │   ├── lab<number> (hw)
 │   │   │   │   ├── subject_lab<number>.pdf
-│   │   │   │   ├── subject_lab<number>_deadline (hw)
+│   │   │   │   ├── subject_lab<number>_guidelines.pdf
+│   │   │   │   ├── subject_lab<number>_deadline
 │   │   │   │   ...
+│   │   │   ...
+│   │   ├── lectures
+│   │   │   ├── lecture<number> (or <number>-<number>)
+│   │   │   │   └── subject_lecture<number>.pdf (or <number>-<number>)
 │   │   │   ...
 │   │   └── misc
 │   │       ├── anything
 │   │       ...
 ...
 ```
-
-Exception: `lecture<start number>-<end number>` (some lectures can be united)
 
 ### Deadline file
 
