@@ -28,6 +28,12 @@ Here you can find lab and hw files, as well as books, lectures and more.
 * oop - Object-Oriented Programming
 * tasod - Types and Structures of Data
 
+
+### 5th semester
+
+* es - Expert Systems
+* ppl - Perspective/Promising Programming Languages
+
 ## Repository structure
 
 ```text
