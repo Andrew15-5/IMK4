@@ -32,6 +32,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 ### 5th semester
 
 * es - Expert Systems
+* os - Operating Systems
 * ppl - Perspective/Promising Programming Languages
 
 ## Repository structure
