@@ -34,6 +34,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 * es - Expert Systems
 * os - Operating Systems
 * ppl - Perspective/Promising Programming Languages
+* pt - Probability Theory
 
 ## Repository structure
 
