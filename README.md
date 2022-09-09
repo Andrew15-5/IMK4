@@ -35,6 +35,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 * os - Operating Systems
 * ppl - Perspective/Promising Programming Languages
 * pt - Probability Theory
+* rw - Research Work
 
 ## Repository structure
 
