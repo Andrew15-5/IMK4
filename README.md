@@ -55,11 +55,11 @@ IMK4
 │   │   │   └── questions
 │   │   │       ├── subject_exam_questions.pdf
 │   │   │       ...
-│   │   ├── labs (hws)
+│   │   ├── labs (hws, exs, tests)
 │   │   │   ├── guidelines (general)
 │   │   │   │   ├── subject_lab_guidelines.pdf
 │   │   │   │   ...
-│   │   │   ├── lab<number> (hw)
+│   │   │   ├── lab<number> (hw, ex, test)
 │   │   │   │   ├── subject_lab<number>.pdf
 │   │   │   │   ├── subject_lab<number>_guidelines.pdf
 │   │   │   │   ├── subject_lab<number>_deadline
