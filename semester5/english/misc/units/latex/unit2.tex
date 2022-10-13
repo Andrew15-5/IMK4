@@ -1,0 +1,346 @@
+\documentclass{full}
+\hypersetup{pdfauthor=digitized by Andrew Voynov}
+\newgeometry{margin=3cm,right=2cm}
+\setunderlinedepth[2.2pt]
+\setunderlinethickness[0.7pt]
+\pagestyle{fancy}
+\setcounter{page}{10}
+\headerline
+\cfoot{}
+\rfoot{\textbf{\twelvetwelvesize\thepage}}
+\renewcommand\normalsize{\setfontsize{13.5}{16}}
+\begin{document}
+\newcounter{task}
+\setcounter{task}{1}
+\newcommand\gettask{\arabic{task}}
+\newcommand\nexttask{\setcounter{task}{\gettask+1}}
+\noindent
+\textbf{UNIT 2. OPERATING SYSTEMS}
+\begin{enumerate}[label=\textbf{\Roman*.},leftmargin=5ex,start=\gettask]
+  \setfontsize{13.5}{18}
+  \item \textbf{Make sure that you know the following words:} \\
+    computer hardware, service, system software, application programs,
+    function, processor time, printing, input and output, application code,
+    execute, device, cellular phone, supercomputer, web server, Microsoft
+    Windows, Windows Phone, to access a computer, point of view
+
+  \nexttask
+  \item \textbf{Learn the following terms:}
+    \begin{itemize}[itemsep=1ex,label=\setfontsize{20}{30}\textbullet\;]
+      \setfontsize{13.5}{21}
+      \item \uline{time-sharing operating system} - операционная система,
+        работающая в режиме разделения времени
+      \item \uline{accounting software} - бухгалтерское ПО
+      \item \uline{memory allocation} - распределение памяти
+      \item \uline{system call} - системный вызов
+      \item \uline{real-time operating system} - операционная система реального
+        времени
+      \item \uline{to use specialized scheduling algorithm} - использовать
+        специальный алгоритм планирования
+      \item \uline{event-driven design} - событийно-управляемый проект
+      \item \uline{clock interrupt} - прерывание по таймеру
+      \item \uline{multiple-user access to computer} - многопользовательский
+        доступ к компьютеру
+      \item \uline{to run programs at the same time} - исполнять программы
+        одновременно
+      \item \uline{pre-emptive multitasking} - вытесняющая многозадачность
+      \item \uline{cooperative multitasking} - кооперативная (совместная)
+        многозадачность
+      \item \uline{distributed operating system} - распределённая операционная
+        система
+      \item \uline{networked computer} - сетевой компьютер
+      \item \uline{to carry out distributed computations} - выполнять
+        распределённые вычисления
+      \item \uline{cloud computing} - \quote{облачные} вычисления
+      \item \uline{embedded operating system} - встроенная операционная система
+    \end{itemize}
+
+  \nexttask
+  \item \textbf{Read and translate the text:}
+\end{enumerate}
+
+An \textbf{operating system} (\textbf{OS}) is software that manages computer
+hardware resources and provides common services for computer programs. The
+operating system is an essential component of the system software in a computer
+system. Application programs usually require an operating system to function.
+
+Time-sharing operating systems schedule tasks for efficient use of the system
+and may also include accounting software for cost allocation of processor time,
+mass storage, printing, and other resources.
+
+For hardware functions such as input and output and memory allocation, the
+operating system acts as an intermediary between programs and the computer
+hardware, although the application code is usually executed directly by the
+hardware and will frequently make a system call to an OS function or be
+interrupted by it. Operating systems can be found on almost any device that
+contains a computer - from cellular phones and video game consoles to
+supercomputers and web servers. Examples of popular modern operating systems
+include Android, BSD, iOS, Linux, OS X, QNX, Microsoft Windows, Windows Phone,
+and IBM z/OS. All these, except Windows, Windows Phone and z/OS, share roots in
+UNIX.
+
+\section*{Types of operating systems}
+A real-time operating system is a multitasking operating system that aims at
+executing real-time applications. Real-time operating systems often use
+specialized scheduling algorithms so that they can achieve a deterministic
+nature of behavior. The main objective of real-time operating systems is their
+quick and predictable response to events. They have an event-driven or
+time-sharing design and often aspects of both. An event-driven system switches
+between tasks based on their priorities or external events while time-sharing
+operating systems switch tasks based on clock interrupts.
+
+A multi-user operating system allows multiple users to access a computer system
+at the same time. Time-sharing systems and Internet servers can be classified as
+multi-user systems as they enable multiple-user access to a computer through the
+sharing of time. Single-user operating systems have only one user but may allow
+multiple programs to run at the same time.
+
+A multi-tasking operating system allows more than one program to be running at
+the same time, from the point of view of human time scales. A single-tasking
+system has only one running program. Multi-tasking can be of two types:
+pre-emptive and cooperative. In pre-emptive multitasking, the operating system
+slices the CPU time and dedicates one slot to each of the programs. Unix-like
+operating systems such as Solaris and Linux support pre-emptive multitasking, as
+does AmigaOs. Cooperative multitasking is achieved by relying on each process to
+give time to the other processes in a defined manner. 16-bit versions of
+Microsoft Windows used cooperative multitasking. 32-bit versions of both Windows
+NT and Win9x, used pre-emptive multitasking. Mac OS prior to OS X used to
+support cooperative multitasking.
+
+A distributed operating system manages a group of independent computers and
+makes them appear to be a single computer. The development of networked
+computers that could be linked and communicate with each other gave rise to
+distributed computing. Distributed computations are carried out on more than one
+machine. When computers in a group work in cooperation, they make a distributed
+system.
+
+In an o/s, distributed and cloud computing context, templating refers to
+creating a single virtual machine image as a guest operating system, then saving
+it as a tool for multiple running virtual machines. The technique is used both
+in virtualization and cloud computing management, and is common in large server
+warehouses.
+
+Embedded operating systems are designed to be used in embedded computer systems.
+They are designed to operate on small machines like PDAs with less autonomy.
+They are able to operate with a limited number of resources. They are very
+compact and extremely efficient by design. Windows CE and Minix 3 are Some
+examples of embedded operating systems.
+
+\vspace{1ex}
+\nexttask
+\begin{enumerate}[label=\textbf{\Roman*.},start=\gettask]
+  \item \textbf{Answer the following questions:}
+    \begin{enumerate}[label=\arabic*.,leftmargin=1ex,itemsep=-0.23ex]
+      \item What is an operating system?
+      \item What does it provide?
+      \item What tasks do time-sharing systems schedule for efficient use of the
+        system?
+      \item When does an operating system act as an intermediary between
+        programs and a computer?
+      \item What kind of devices can an operating systems be found on?
+      \item What are the examples of popular modern operating systems?
+      \item What does a real-time operating system aim at?
+      \item What is the main objective of real-time operating systems?
+      \item How does a multi-user operating system allow multiple users to
+        access a computer?
+      \item What is the main feature of a single-user operating system?
+      \item What are the main types of multi-tasking operating systems?
+      \item What operating systems support pre-emptive multitasking?
+      \item What operating system manages a group of independent computers and
+        makes them appear to be a single computer?
+      \item When do computers make a distributed system?
+      \item What technique is used both in virtualization and cloud computing
+        management?
+      \item What type of machines are embedded operating systems designed to
+        operate on?
+    \end{enumerate}
+
+  \nexttask
+  \item \textbf{Retell the text briefly using the new words and expressions from
+    ex. II.}
+
+  \vspace{2ex}
+  \nexttask
+  \item \textbf{Fill in the gaps with the words given below. Use the dictionary
+    if necessary.}
+\end{enumerate}
+
+\noindent\textit{\begin{enumerate*}[label=\alph*)]
+  \item free software,
+  \item be unproductive,
+  \item programmer,
+  \item the first version,
+  \item UNIX,
+  \item project,
+  \item system software,
+  \item computer science student,
+  \item \quote{Linux},
+  \item user space,
+  \item BSD,
+  \item ported
+\end{enumerate*}}
+\vspace{3ex}
+
+The GNU Project was started by activist and ... (1) Richard Stallman with the
+goal of creating a complete ... (2) replacement to the proprietary (3) operating
+system. While the ... (4) was highly successful in duplicating the functionality
+of various parts of UNIX, development of the GNU Hurd kernel proved to ... (5).
+In 1991, Finnish computer science student Linus Torvalds, with cooperation from
+volunteers collaborating over the Internet, released the ... (6) of the Linux
+kernel. It was soon merged with the GNU ... (7) components and ... (8) to form a
+complete operating system. Since then, the combination of the two major
+components has usually been referred to as simply \quote{... (10)} by the
+software industry. The Berkeley Software Distribution, known as ... (11), is the
+UNIX derivative distributed by the University of California, Berkeley, starting
+in the 1970s. Freely distributed and ... (12) to many minicomputers, it
+eventually also gained a following for use on PCs, mainly as FreeBSD, NetBSD and
+OpenBSD.
+\vspace{1ex}
+
+\setfontsize{11}{11}\noindent
+(GNU is not Unix - операционная система GNU, Unix-совместимая ОС,
+разрабатываемая FSF).
+\normalsize
+
+\vspace{0ex}
+\section*{Grammar revision: The -ing form as a noun; after prepositions.}
+
+\nexttask
+\begin{enumerate}[label=\textbf{\Roman*.},start=\gettask]
+  \item \textbf{Rewrite each of these sentences like this:}
+
+    \textit{An important function of the operating system is to manage the
+    computer's resources.}
+
+    \textit{Managing the computer's resources is an important function of the
+    operating system.}
+
+    \begin{enumerate}[label=\arabic*.]
+      \item The role of the operating system is to communicate directly with the
+        hardware.
+      \item One of the key functions of the operating system is to establish a
+        user interface.
+      \item An additional role is to provide services for applications software.
+      \item Part of the work of mainframe operating system is to support
+        multiple programs and users.
+      \item The task in most cases is to facilitate interaction between a single
+        user and a PC.
+      \item One of the most important functions of a computer is to process
+        large amounts of data quickly.
+      \item The main reason for installing more memory is to allow the computer
+        to process data faster.
+    \end{enumerate}
+
+  \vspace{3ex}
+  \nexttask
+  \item \textbf{Complete these sentences with the correct form of the verb:
+    infinitive or -ing form.}
+    \begin{enumerate}[label=\arabic*.,itemsep=-0.5ex]
+      \item Don't switch off without (close down) your PC.
+      \item I want to (upgrade) my computer.
+      \item He can't get used to (log on) with a password.
+      \item You can find information on the Internet by (use) a search engine.
+      \item He objected to (pay) expensive telephone calls for Internet access.
+      \item He tried to (hack into) the system without (known) the password.
+      \item You needn't learn how to (program) in HTML before (design) webpages.
+      \item I look forward to (input) data by voice instead of (use) a keyboard.
+    \end{enumerate}
+    \vspace{1ex}
+
+  \nexttask
+  \item \textbf{Look through the text. Make a short summary of it:}
+  \vspace{-2ex}
+\end{enumerate}
+
+\section*{UNIX and UNIX-like operating systems}
+Unix was originally written in assembly language.Ken Thompson wrote B, mainly
+based on BCPL, based on his experience in the MULTICS project. B was replaced by
+C, and Unix, rewritten in C, developed into a large, complex family of
+interrelated operating systems which have been influential in every modern
+operating
+system.
+
+The UNIX-like family is a diverse group of operating systems, with several major
+sub-categories including System V, BSD, and Linux. The name \quote{UNIX} is a
+trademark of The Open Group which licenses it for use with any operating system
+that has been shown to conform to their definitions. \quote{UNIX-like} is
+commonly used to refer to the large set of operating systems which resemble the
+original UNIX.
+
+Unix-like systems run on a wide variety of computer architecture. They are used
+heavily for servers in business, as well as workstations in academic and
+engineering environments. Free UNIX variants, such as Linux and BSD, are popular
+in these areas.
+
+Four operating systems are certified by The Open Group (holder of the Unix
+trademark) as Unix. HP's HP-UX and IBM's AIX are both descendants of the
+original System V Unix and are designed to run only on their respective vendor's
+hardware. In contrast, Sun Microsystems's Solaris Operating System can run on
+multiple types of hardware, including x86 and Sparc servers, and PCs. Apple's OS
+X, a replacement for Apple's earlier (non-Unix) Mac OS, is a hybrid kernel-based
+BSD variant derived from NEXTSTEP, Mach, and FreeBSD.
+
+A subgroup of the Unix family is the Berkeley Software Distribution family,
+which includes FreeBSD, NetBSD, and OpenBSD. These operating systems are most
+commonly found on webservers, although they can also function as a personal
+computer OS. The Internet owes much of its existence to BSD, as many of the
+protocols now commonly used by computers to connect, send and receive data over
+a network were widely implemented and refined in BSD. The World Wide Web was
+also first demonstrated on a number of computers running an OS based on BSD
+called NextStep.
+
+BSD has its roots in Unix. In 1974, University of California, Berkeley installed
+its first Unix system. Over time, students and staff in the computer science
+department there began adding new programs to make things easier, such as text
+editors. When Berkeley received new VAX computers in 1978 with Unix installed,
+the school's undergraduates modified Unix even more in order to take advantage
+of the computer's hardware possibilities. The Defense Advanced Research Projects
+Agency of the US Department of Defense took interest, and decided to fund the
+project. Many schools, corporations, and government organizations took notice
+and started to use Berkeley's version of Unix instead of the official one
+distributed by AT\&T.
+
+\vspace{0.42ex}
+\nexttask
+\begin{enumerate}[label=\textbf{\Roman*.},start=\gettask]
+  \item \textbf{Translate the text in written form:}
+  \vspace{-0.7ex}
+\end{enumerate}
+
+\textbf{Windows 10} is a personal computer operating system developed and
+released by Microsoft as part of the Windows NT family of operating systems. It
+was officially unveiled in September 2014 following a brief demo at Build 2014.
+The first version of the operating system entered a public beta testing process
+in October 2014, leading up to its consumer release on July 29, 2015.
+
+Windows 10 introduces what Microsoft described as \quote{universal apps};
+expanding on Metro-style apps, these apps can be designed to run across multiple
+Microsoft product families with nearly identical code - including PCs, tablets,
+smartphones, embedded systems, Xbox One, Surface Hub and Holographic. The
+Windows user interface was revised to handle transitions between a
+mouse-oriented interface and a touchscreen-optimized interface based on
+available input devices - particularly on 2-in-1 PCs; both interfaces include an
+updated Start menu which incorporates elements of Windows 7's traditional Start
+menu with the tiles of Windows 8. The first release of Windows 10 also
+introduces a virtual desktop system, a window and desktop management feature
+called Task View, the Microsoft Edge web browser, support for fingerprint and
+face recognition login, new security features for enterprise environments, and
+DirectX 12 and WDDM 2.0 to improve the operating system's graphics capabilities
+for games.
+
+Microsoft described Windows 10 as an \quote{operating system as a service} that
+would receive ongoing updates to its features and functionality, augmented with
+the ability for enterprise environments to receive non-critical updates at a
+slower pace, or use long-term support milestones that will only receive critical
+updates, such as security patches, over their five-year lifespan of mainstream
+support. Terry Myerson, executive vice president of Microsoft's Windows and
+Devices Group, argued that the goal of this model was to reduce fragmentation
+across the Windows platform, as Microsoft aimed to have Windows 10 installed on
+at least one billion devices in the two to three years following its release.
+
+As of June 2016, Windows 10 use is on the rise, with previous versions of
+Windows declining in their share of total usage as measured by web traffic. The
+operating system is running on 350 million active devices and has an estimated
+usage share of 22\% on personal computers and 12\% across all platforms (PC,
+mobile, tablet, and console).
+\end{document}

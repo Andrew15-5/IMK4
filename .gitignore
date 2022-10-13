@@ -1,3 +1,6 @@
 # Exclude unarchived books
 **/books/*.pdf
 **/books/*.djvu
+
+**/latex/*
+!**/latex/*.tex
