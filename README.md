@@ -28,7 +28,6 @@ Here you can find lab and hw files, as well as books, lectures and more.
 * oop - Object-Oriented Programming
 * tasod - Types and Structures of Data
 
-
 ### 5th semester
 
 * db - Databases
@@ -37,6 +36,10 @@ Here you can find lab and hw files, as well as books, lectures and more.
 * ppl - Perspective/Promising Programming Languages
 * pt - Probability Theory
 * rw - Research Work
+
+### 6th semester
+
+* j - Jurisprudence
 
 ## Repository structure
 
