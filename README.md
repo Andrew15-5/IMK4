@@ -40,6 +40,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 ### 6th semester
 
 * j - Jurisprudence
+* ls - Life Safety
 
 ## Repository structure
 
