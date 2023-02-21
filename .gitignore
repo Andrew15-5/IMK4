@@ -4,3 +4,5 @@
 
 **/latex/*
 !**/latex/*.tex
+!**/latex/Makefile
+!**/latex/.latexmkrc

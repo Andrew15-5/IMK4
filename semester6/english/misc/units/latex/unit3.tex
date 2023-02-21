@@ -1,0 +1,450 @@
+\documentclass[a4paper]{article}
+\usepackage{hyperref, fontspec, fontsize, dirtytalk}
+\usepackage[none]{hyphenat}
+\usepackage[inline]{enumitem}
+\usepackage[margin=2cm, left=3cm]{geometry}
+\changefontsize{13pt}
+\setmainfont{Liberation Serif}
+\hypersetup{pdfauthor=digitized by Andrew Voynov}
+\def\ruleftquote{«}
+\def\rurightquote{»}
+\newcommand\ruquote[1]{\ruleftquote #1\rurightquote}
+\newcommand\indenton{\setlength\parindent{1.25cm}}
+\sloppy
+\begin{document}
+
+\noindent\textbf{UNIT 3. NETWORKS}
+
+\vspace{2ex}
+
+\def\bfitem#1{\item \textbf{#1}}
+
+\begin{enumerate}[label={\textbf{\Roman*.}},leftmargin=0pt,itemindent=*]
+  \indenton
+  \bfitem{Make sure that you know the following words:}
+
+    Direct connection, include hosts, personal computers, differ in, to carry
+    signals, transmission medium, communication protocols, digital audio,
+    printers, fax machines, use of email, to the destination, instant messaging,
+    chat rooms, video telephone calls, video conferencing, service attack,
+    control information.
+
+  \vspace{2ex}
+
+  \bfitem{Learn the following terms:}
+
+  \begin{itemize}
+    \item \textbf{to exchange data} --- обмениваться информацией
+    \item \textbf{data link} --- канал передачи данных
+    \item \textbf{wireless medium} --- беспроводной носитель данных
+    \item \textbf{network node} --- главный узел
+
+    \item \textbf{shared use of applications} --- совместное использование
+      приложений
+
+    \item \textbf{to organize network traffic} --- организовывать сетевой трафик
+
+    \item \textbf{application-specific communications protocol} ---
+      специализированный протокол связи
+
+    \item \textbf{point-to-point telecommunication link} --- канал связи
+      \ruquote{точка-точка}
+
+    \item \textbf{packet switched network} --- сеть с пакетной коммутацией
+
+    \item \textbf{bandwidth of the transmission medium} --- полоса пропускания
+      передающей среды
+
+    \item \textbf{network address} --- сетевой адрес
+    \item \textbf{error detection code} --- код с обнаружением ошибок
+
+    \item \textbf{to deliver user data} --- оставлять сообщения, содержащие
+      информацию для пользователя
+
+    \item \textbf{packet header} --- заголовок пакета
+
+    \item \textbf{trailer} --- трейлер --- запись с контрольной суммой в конце
+      массива данных
+
+    \item \textbf{shared storage device} --- совместно используемое запоминающее
+      устройство
+
+    \item \textbf{to accomplish a task} --- выполнить задание
+
+    \item \textbf{computer cracker} --- взломщик компьютерных систем,
+      злоумышленник
+
+  \end{itemize}
+
+  \vspace{2ex}
+
+  \bfitem{Read and translate the text:}
+
+    A computer network or data network is a telecommunications network which
+    allows computers to exchange data. In computer networks, networked computing
+    devices exchange data with each other using a data link. The connections
+    between nodes are established using either cable media or wireless media.
+    The best-known computer network is the Internet.
+
+    Network computer devices that originate, route and terminate the data are
+    called network nodes. Nodes can include hosts such as personal computers,
+    phones, servers as well as networking hardware. Two such devices can be said
+    to be networked together when one device is able to exchange information
+    with the other device, whether or not they have a direct connection to each
+    other.
+
+    Computer networks differ in the transmission medium used to carry their
+    signals, the communications protocols to organize network traffic, the
+    network's size, topology and organizational intent.
+
+    Computer networks support an enormous number of applications such as access
+    to the World Wide Web, video, digital audio, shared use of application and
+    storage servers, printers, and fax machines, and use of email and instant
+    messaging applications as well as many others. In most cases,
+    application-specific communications protocols are layered (i.e. carried as
+    payload) over other more general communications protocols.
+
+    Computer communication links that do not support packets, such as
+    traditional point-to-point telecommunication links, simply transmit data as
+    a bit stream. However, most information in computer networks is carried in
+    packets. A network packet is a formatted unit of data (a list of bits or
+    bytes, usually a few tens of bytes to a few kilobytes long) carried by a
+    packet-switched network.
+
+    In packet networks, the data is formatted into packets that are sent through
+    the network to their destination. Once the packets arrive they are
+    reassembled into their original message. With packets, the bandwidth of the
+    transmission medium can be better shared among users than if the network
+    were circuit switched. When one user is not sending packets, the link can be
+    filled with packets from others users, and so the cost can be shared, with
+    relatively little interference, provided the link isn't overused.
+
+    Packets consist of two kinds of data: control information, and user data
+    (payload). The control information provides data the network needs to
+    deliver the user data, for example: source and destination network
+    addresses, error detection codes, and sequencing information. Typically,
+    control information is found in packet headers and trailers, with payload
+    data in between.
+
+    Often the route a packet needs to take through a network is not immediately
+    available. In that case the packet is queued and waits until a link is free.
+
+    A computer network facilitates interpersonal communications allowing users
+    to communicate efficiently and easily via various means: email, instant
+    messaging, chat rooms, telephone, video telephone calls, and video
+    conferencing. Providing access to information on shared storage devices is
+    an important feature of many networks. A network allows sharing of files,
+    data, and other types of information giving authorized users the ability to
+    access information stored on other computers on the network. A network
+    allows sharing of network and computing resources. Users may access and use
+    resources provided by devices on the network, such as printing a document on
+    a shared network printer. Distributed computing uses computing resources
+    across a network to accomplish tasks. A computer network may be used by
+    computer crackers to deploy computer viruses or computer worms on devices
+    connected to the network, or to prevent these devices from accessing the
+    network via a denial of service attack.
+
+  \vspace{4ex}
+
+  \bfitem{Answer the following questions:}
+
+    \begin{enumerate}[label=\arabic*.]
+      \item What does computer network allow computers to do?
+      \item What devices exchange data with each other using a data link?
+      \item How are connections between nodes established?
+      \item What computer devices are called network nodes?
+      \item What devices do nodes include?
+      \item How do computer networks differ in?
+      \item What applications do computer networks support?
+      \item How is most information in computer networks carried?
+      \item What is a network packet?
+      \item What kinds of data do packets consist of?
+
+      \item How does computer network allow users to communicate via various
+        means?
+
+      \item What is an important feature of many networks?
+
+      \item Who may a computer network be used by to deploy computer viruses or
+        computer worms?
+
+    \end{enumerate}
+
+  \bfitem{Retell the text briefly using the new words and expressions from ex.
+  II.}
+
+  \bfitem{Fill in the gaps with the words given below. Use the dictionary if
+  necessary.}
+
+    \begin{center}
+      \textbf{Future Initiatives}
+    \end{center}
+
+    {\itshape\noindent\begin{enumerate*}[label=\alph*)]
+      \item media,
+      \item to evolve,
+      \item to outsource,
+      \item applications,
+      \item YouTube, \\
+
+      \item efficiently,
+      \item \say{the cloud},
+      \item consumption,
+      \item functions,
+      \item powerful
+    \end{enumerate*}}
+
+    \vspace{2ex}
+
+    Network software ... (1) including Twitter and ... (2) have been rapidly
+    replacing traditional ... (3) as a source for news, information, training
+    and entertainment. As the Internet continues to grow as the primary network
+    platform, the role of network software will continue ... (4). A trend toward
+    \say{cloud-based computing} seeks to ... (5) network and application
+    management from the corporate premises to data centers. Traditional network
+    software ... (6) including application hosting, communication,
+    administration and backups will be outsourced to ... (7) where they can be
+    performed more ... (8). Network software platforms are becoming more ... (9)
+    targeting new objectives to reduce the number of servers, cooling
+    requirements and power ... (10) requirements of corporations and data
+    centers. This concept of \say{Green I/T} is a new and evolving purpose of
+    network software technologies.
+
+  \newpage
+
+  \textbf{Grammar revision: Relative clauses with a participle}
+
+  \bfitem{Rewrite each of these sentences like this:}
+
+    \begin{enumerate}[label=\arabic*.,itemsep=0pt]
+
+      \item A gateway is an interface (enable) dissimilar networks to
+        communicate.
+
+      \item A bridge is a hardware and software combination (use) to connect the
+        same type of networks.
+
+      \item A backbone is a network transmission path (handle) major data
+        traffic.
+
+      \item A router is a special computer (direct) messages when several
+        networks are linked.
+
+      \item A network is a number of computers and peripherals (link) together.
+
+      \item A LAN is a network (connect) computers over a small distance such as
+        within a company.
+
+      \item A server is a powerful computer (store) many programs (share) by all
+        the clients in the network.
+
+      \item A client is a network computer (use) for accessing a service on a
+        server.
+
+      \item A thin client is a simple computer (comprise) a processor and
+        memory, display, keyboard, mouse and hard drives only.
+
+      \item A hub is an electronic device (connect) all the data cabling in a
+        network.
+
+    \end{enumerate}
+
+  \bfitem{Link these statements using a relative clause with a participle.}
+
+    \vspace{-0.5ex}
+
+    \begin{enumerate}[label=\arabic*.,itemsep=0pt]
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item The technology is here today.
+        \item It is needed to set up a home network.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item You only need one network printer.
+        \item It is connected to the server.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item Her house has a network.
+        \item It allows basic file-sharing and multi-player gaming.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item There is a line receiver in the living room.
+        \item It delivers home entertainment audio to speakers.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item Eve has designed a site.
+        \item It is dedicated to dance.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item She has built-in links.
+        \item They connect her site to other dance sites.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item She created the site using a program called Netscape Composer.
+        \item It is contained in Netscape Communicator.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item At the center of France Telecom's home of tomorrow is a network.
+        \item It is accessed through a Palm Pilot-style control pad.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item The network can simulate the owner's presence.
+        \item This makes sure vital tasks are carried out in her absence.
+      \end{enumerate}
+
+      \item \begin{enumerate}[label=\alph*)]
+        \item The house has an electronic door-keeper.
+        \item It is programmed to recognize you.
+        \item This gives access to family only.
+      \end{enumerate}
+
+    \end{enumerate}
+
+  \newpage
+
+  \bfitem{Look through the text. Make a short summary of it:}
+
+  \vspace{6ex}
+
+    \begin{center}
+      \textbf{Communications protocols}
+    \end{center}
+
+    A communications protocol is a set of rules for exchanging information over
+    network links. In a protocol stack (also see the OSI model), each protocol
+    leverages the services of the protocol below it. An important example of a
+    protocol stack is HTTP (the World Wide Web protocol) running over TCP over
+    IP (the Internet protocols) over IEEE 802.11 (the Wi-Fi protocol). This
+    stack is used between the wireless router and the home user's personal
+    computer when the user is surfing the web.
+
+    Whilst the use of protocol layering is today ubiquitous across the field of
+    computer networking, it has been historically criticized by many researchers
+    for two principal reasons. Firstly, abstracting the protocol stack in this
+    way may cause a higher layer to duplicate functionality of a lower layer, a
+    prime example being error recovery on both a per-link basis and an
+    end-to-end basis. Secondly, it is common that a protocol implementation at
+    one layer may require data, state or addressing information that is only
+    present at another layer, thus defeating the point of separating the layers
+    in the first place. For example, TCP uses the ECN field in the IPv4 header
+    as an indication of congestion; IP is a network layer protocol whereas TCP
+    is a transport layer protocol. Communication protocols have various
+    characteristics. They may be connection-oriented or connectionless, they may
+    use circuit mode or packet switching, and they may use hierarchical
+    addressing or flat addressing.
+
+    There are many communication protocols, a few of which are described below.
+
+    The complete IEEE 802 protocol suite provides a diverse set of networking
+    capabilities. The protocols have a flat addressing scheme. They operate
+    mostly at levels 1 and 2 of the OSI model.
+
+    For example, MAC bridging (IEEE 802.1D) deals with the routing of Ethernet
+    packets using a Spanning Tree Protocol. IEEE 802.1Q describes VLANs, and
+    IEEE 802.1X defines a port-based Network Access Control protocol, which
+    forms the basis for the authentication mechanisms used in VLANs (but it is
+    also found in WLANs) --- it is what the home user sees when the user has to
+    enter a \say{wireless access key}.
+
+    Ethernet, sometimes simply called LAN, is a family of protocols used in
+    wired LANs, described by a set of standards together called IEEE 802.3
+    published by the Institute of Electrical and Electronics Engineers.
+
+    Wireless LAN, also widely known as WLAN or WiFi, is probably the most
+    well-known member of the IEEE 802 protocol family for home users today. It
+    is standardized by IEEE 802.11 and shares many properties with wired
+    Ethernet. The Internet Protocol Suite, also called TCP/P, is the foundation
+    of all modern networking. It offers connection-less as well as
+    connection-oriented services over an inherently unreliable network traversed
+    by data-gram transmission at the Internet protocol (IP) level. At its core,
+    the protocol suite defines the addressing, identification, and routing
+    specifications for Internet Protocol Version 4 (IPv4) and for IPv6, the next
+    generation of the protocol with a much enlarged addressing capability.
+
+    Synchronous optical networking (SONET) and Synchronous Digital Hierarchy
+    (SDH) are standardized multiplexing protocols that transfer multiple digital
+    bit streams over optical fiber using lasers. They were originally designed
+    to transport circuit mode communications from a variety of different
+    sources, primarily to support real-time, uncompressed, circuit-switched voice
+    encoded in PCM (Pulse-Code Modulation) format. However, due to its protocol
+    neutrality and transport-oriented features, SONET/SDH also was the obvious
+    choice tor transporting Asynchronous Transfer Mode (ATM) frames.
+
+    Asynchronous Transfer Mode (ATM) is a switching technique for
+    telecommunication networks. It uses asynchronous time-division multiplexing
+    and encodes data into small, fixed-sized cells. This differs from other
+    protocols such as the Internet Protocol Suite or Ethernet that use variable
+    sized packets or frames. ATM has similarity with both circuit and packet
+    switched networking. This makes it a good choice for a network that must
+    handle both traditional high-throughput data traffic, and real-time,
+    low-latency content such as voice and video. ATM uses a connection-oriented
+    model in which a virtual circuit must be established between two endpoints
+    before the actual data exchange begins.
+
+    While the role of ATM is diminishing in favor of next-generation networks,
+    it sill plays a role in the last mile, which is the connection between an
+    Internet service provider and the home user.
+
+  \newpage
+
+  \bfitem{Translate the text in written form:}
+
+    \begin{center}
+      \textbf{Views of networks}
+    \end{center}
+
+    Users and network administrators typically have different views of their
+    networks. Users can share printers and some servers from a workgroup, which
+    usually means they are in the same geographic location and are on the same
+    LAN, whereas a Network Administrator is responsible to keep that network up
+    and running. A community of interest has less of a connection of being in a
+    local area, and should be thought of as a set of arbitrarily located users
+    who share a set of servers, and possibly also communicate via peer-to-peer
+    technologies.
+
+    Network administrators can see networks from both physical and logical
+    perspectives. The physical perspective involves geographic locations,
+    physical cabling, and the network elements (e.g., routers, bridges and
+    application layer gateways) that interconnect via the transmission media.
+    Logical networks, called, in the TCP/IP architecture, subnets, map onto one
+    or more transmission media. For example, a common practice in a campus of
+    buildings is to make a set of LAN cables in each building appear to be a
+    common subnet, using virtual LAN (VLAN) technology.
+
+    Both users and administrators are aware, to varying extents, of the trust
+    and scope characteristics of a network. Again using TCP/P architectural
+    terminology, an intranet is a community of interest under private
+    administration usually by an enterprise, and is only accessible by
+    authorized users (e.g. employees). Intranets do not have to be connected to
+    the Internet, but generally have a limited connection. An extranet is an
+    extension of an intranet that allows secure communications to users outside
+    of the intranet (e.g. business partners, customers).
+
+    Unofficially, the Internet is the set of users, enterprises, and content
+    providers that are interconnected by Internet Service Providers (ISP). From
+    an engineering viewpoint, the Internet is the set of subnets, and aggregates
+    of subnets, which share the registered IP address space and exchange
+    information about the reachability of those IP addresses using the Border
+    Gateway Protocol. Typically, the human-readable names of servers are
+    translated to IP addresses, transparently to users, via the directory
+    function of the Domain Name System (DNS).
+
+    Over the Internet, there can be business-to-business (B2B),
+    business-to-consumer (B2C) and consumer-to-consumer (C2C) communications.
+    When money or sensitive information is exchanged, the communications are apt
+    to be protected by some form of communications security mechanism. Intranets
+    and extranets can be securely superimposed onto the Internet, without any
+    access by general Internet users and administrators, using secure Virtual
+    Private Network (VPN) technology.
+
+\end{enumerate}
+
+\end{document}
