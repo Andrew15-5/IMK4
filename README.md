@@ -49,7 +49,6 @@ IMK4
 ├── semester<number>
 │   ├── [books]
 │   │   ├── part<number>.zip
-│   │   ├── book.
 │   │   ...
 │   ├── <subject>
 │   │   ├── [exam]
