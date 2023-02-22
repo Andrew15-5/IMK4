@@ -6,41 +6,41 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 ### General
 
-* ex - exercise
-* hw - homework
-* IMK - Informatics and Management Kaluga
-* lab - laboratory work
-* misc - miscellaneous
+- ex - exercise
+- hw - homework
+- IMK - Informatics and Management Kaluga
+- lab - laboratory work
+- misc - miscellaneous
 
 ### 3rd semester
 
-* dm - Discrete Mathematics
-* foe - Fundamentals of Electronics
-* hlp - High-level Programming
-* mdpl - Machine-dependent Programming Languages
+- dm - Discrete Mathematics
+- foe - Fundamentals of Electronics
+- hlp - High-level Programming
+- mdpl - Machine-dependent Programming Languages
 
 ### 4th semester
 
-* calg - Computational Algorithms
-* carch - Computer Architecture
-* cg - Computer Graphics
-* latoa - Logic and Theory of Algorithms
-* oop - Object-Oriented Programming
-* tasod - Types and Structures of Data
+- calg - Computational Algorithms
+- carch - Computer Architecture
+- cg - Computer Graphics
+- latoa - Logic and Theory of Algorithms
+- oop - Object-Oriented Programming
+- tasod - Types and Structures of Data
 
 ### 5th semester
 
-* db - Databases
-* es - Expert Systems
-* os - Operating Systems
-* ppl - Perspective/Promising Programming Languages
-* pt - Probability Theory
-* rw - Research Work
+- db - Databases
+- es - Expert Systems
+- os - Operating Systems
+- ppl - Perspective/Promising Programming Languages
+- pt - Probability Theory
+- rw - Research Work
 
 ### 6th semester
 
-* j - Jurisprudence
-* ls - Life Safety
+- j - Jurisprudence
+- ls - Life Safety
 
 ## Repository structure
 
@@ -80,13 +80,13 @@ IMK4
 
 ### Designations
 
-* name --- literal, required
-* [name] --- literal, optional (can be absent)
-* \<name> --- non-literal, optional (the actual name is different, can be absent)
-* (name1|name2) --- literal, one of (the actual name is either "name1" or "name2")
+- name --- literal, required
+- [name] --- literal, optional (can be absent)
+- \<name> --- non-literal, optional (the actual name is different, can be absent)
+- (name1|name2) --- literal, one of (the actual name is either "name1" or "name2")
 
 > Any `(lab|hw|ex|test)` work's `<number>` satisfies this Regular Expression
-format: `\d+[.\d+]`.
+> format: `\d+[.\d+]`.
 
 ### Deadline file
 
@@ -119,9 +119,9 @@ But there's an exception: if deadline for lab/hw wasn't provided, then the
 deadline file will be empty.
 
 > As of 2022-02-22 not every
-`./<subject>/(lab|hw|ex|test)s/(lab|hw|ex|test)<number>/`
-directory has a `<subject>_(lab|hw|ex|test)<number>_deadline` file (WIP).
-Exception is the 6th semester.
+> `./<subject>/(lab|hw|ex|test)s/(lab|hw|ex|test)<number>/`
+> directory has a `<subject>_(lab|hw|ex|test)<number>_deadline` file (WIP).
+> Exception is the 6th semester.
 
 ## Notes
 
@@ -145,10 +145,10 @@ for your convenience: <https://yadi.sk/d/-cBfNyfBSh_lOA>
 
 Yandex.Disk links to books (unarchived):
 
-* [Semester 1](https://yadi.sk/d/8GMdxPS0u2FZkA)
-* [Semester 2](https://yadi.sk/d/eyVk60MeJabWvQ)
-* [Semester 3](https://yadi.sk/d/np_Smxo_xZjSyg)
-* [Semester 4](https://yadi.sk/d/8ExS3demIAFEIQ)
+- [Semester 1](https://yadi.sk/d/8GMdxPS0u2FZkA)
+- [Semester 2](https://yadi.sk/d/eyVk60MeJabWvQ)
+- [Semester 3](https://yadi.sk/d/np_Smxo_xZjSyg)
+- [Semester 4](https://yadi.sk/d/8ExS3demIAFEIQ)
 
 ## License
 
