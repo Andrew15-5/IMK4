@@ -46,76 +46,95 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 ```text
 IMK4
-├── semester
-│   ├── books
+├── semester<number>
+│   ├── [books]
 │   │   ├── part<number>.zip
-│   │   ├── book.*
+│   │   ├── book.
 │   │   ...
-│   ├── subject
-│   │   ├── exam
-│   │   │   ├── problems
-│   │   │   │   ├── subject_exam_problems.pdf
+│   ├── <subject>
+│   │   ├── [exam]
+│   │   │   ├── (problem|question)s
+│   │   │   │   ├── <subject>_exam_(problem|question)s.pdf
 │   │   │   │   ...
-│   │   │   └── questions
-│   │   │       ├── subject_exam_questions.pdf
-│   │   │       ...
-│   │   ├── labs (hws, exs, tests)
-│   │   │   ├── guidelines (general)
-│   │   │   │   ├── subject_lab_guidelines.pdf
+│   │   ├── [(lab|hw|ex|test)s]
+│   │   │   ├── [guidelines]
+│   │   │   │   ├── <subject>_(lab|hw|ex|test)_guidelines.pdf
 │   │   │   │   ...
-│   │   │   ├── lab<number> (hw, ex, test)
-│   │   │   │   ├── subject_lab<number>.pdf
-│   │   │   │   ├── subject_lab<number>_guidelines.pdf
-│   │   │   │   ├── subject_lab<number>_deadline
+│   │   │   ├── (lab|hw|ex|test)<number>
+│   │   │   │   ├── <subject>_(lab|hw|ex|test)<number>.pdf
+│   │   │   │   ├── [<subject>_(lab|hw|ex|test)<number>_guidelines.pdf]
+│   │   │   │   ├── <subject>_(lab|hw|ex|test)<number>_deadline
 │   │   │   │   ...
 │   │   │   ...
-│   │   ├── lectures
-│   │   │   ├── lecture<number> (or <number>-<number>)
-│   │   │   │   └── subject_lecture<number>.pdf (or <number>-<number>)
+│   │   ├── [lectures]
+│   │   │   ├── lecture<number>[-<number>]
+│   │   │   │   ├── <subject>_lecture<number>[-<number>].pdf
+│   │   │   │   ...
 │   │   │   ...
-│   │   └── misc
-│   │       ├── anything
+│   │   └── [misc]
+│   │       ├── <anything>
 │   │       ...
+│   ...
 ...
 ```
 
+### Designations
+
+* name --- literal, required
+* [name] --- literal, optional (can be absent)
+* \<name> --- non-literal, optional (the actual name is different, can be absent)
+* (name1|name2) --- literal, one of (the actual name is either "name1" or "name2")
+
+> Any `(lab|hw|ex|test)` work's `<number>` satisfies this Regular Expression
+format: `\d+[.\d+]`.
+
 ### Deadline file
 
-Starting from 4th semester each lab/hw has corresponding file with
-deadline date and time.\
-Deadline files are named using folowing format:
+Starting from the 4th semester each `(lab|hw|ex|test)` has corresponding file
+with deadline date and time. Deadline files are named using the folowing format:
 
 ```text
-<subject abbreviation>_<lab/hw><ordinal number>_deadline
+<subject>_(lab|hw|ex|test)<number>_deadline
 ```
 
-and contains one formated line folowing LF character:
+and contains one formated line folowing LF character (`\n`):
 
 ```text
-<Month> <day of month> hh:mm
+<Month> [0]<day of month> hh:mm
 ```
 
-Example would be file `cg_lab1_deadline` with text in it:
+For example, the file `modeling_lab1.1_deadline` has the following text inside:
 
 ```text
-February 27 23:59
+February 18 13:35
+```
+
+A more demonstrative example would be:
+
+```text
+November 09 00:00
 ```
 
 But there's an exception: if deadline for lab/hw wasn't provided, then the
 deadline file will be empty.
+
+> As of 2022-02-22 not every
+`./<subject>/(lab|hw|ex|test)s/(lab|hw|ex|test)<number>/`
+directory has a `<subject>_(lab|hw|ex|test)<number>_deadline` file (WIP).
+Exception is the 6th semester.
 
 ## Notes
 
 Books are archived (in parts) because their names contain cyrillic
 characters and these files are poorly displayed in git. Also big files
 (i.e. books archived by whole semester instead of parts) are harder to maintain.
-You can find same unarchived books in <a href="#links">Links</a> section.
+You can find same unarchived books in [Links](#links) section.
 
-Every .doc(x)/.pp(t|s)x file has a .pdf copy (both files are located
+Every `.(doc[x]|.pp(t|s)x)` file has a .pdf copy (both files are located
 in the same directory).\
 .pdf files are generated using libreoffice:
 
-```shell
+```sh
 libreoffice --convert-to pdf file.doc
 ```
 
