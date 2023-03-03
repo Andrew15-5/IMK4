@@ -99,7 +99,7 @@ with deadline date and time. Deadline files are named using the folowing format:
 and contains one formated line folowing LF character (`\n`):
 
 ```text
-<Month> [0]<day of month> hh:mm
+<Month> <day of month> hh:mm
 ```
 
 For example, the file `modeling_lab1.1_deadline` has the following text inside:
@@ -111,7 +111,7 @@ February 18 13:35
 A more demonstrative example would be:
 
 ```text
-November 09 00:00
+November 9 00:00
 ```
 
 But there's an exception: if deadline for lab/hw wasn't provided, then the
