@@ -42,6 +42,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 - cpsd - Cross-Platform Software Development
 - j - Jurisprudence
 - ls - Life Safety
+- msd - Mobile Software Development
 
 ## Repository structure
 
