@@ -43,6 +43,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 - j - Jurisprudence
 - ls - Life Safety
 - msd - Mobile Software Development
+- mlm - Machine Learning Methods
 
 ## Repository structure
 
