@@ -4,5 +4,6 @@
 
 **/latex/*
 !**/latex/*.tex
+!**/latex/source.pdf
 !**/latex/Makefile
 !**/latex/.latexmkrc
