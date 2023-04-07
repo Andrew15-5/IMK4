@@ -87,7 +87,7 @@ IMK4
 - \<name> --- non-literal, optional (the actual name is different, can be absent)
 - (name1|name2) --- literal, one of (the actual name is either "name1" or "name2")
 
-> Any `(lab|hw|ex|test)` work's `<number>` satisfies this Regular Expression
+> Any `(lab|hw|ex|test|lecture)`'s `<number>` satisfies this Regular Expression
 > format: `\d+[.\d+]`.
 
 ### Deadline file
