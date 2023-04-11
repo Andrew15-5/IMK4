@@ -142,15 +142,15 @@ libreoffice --convert-to pdf file.doc
 
 ## Links
 
-Yandex.Disk link to [this repository](https://github.com/Andrew15-5/IMK4)'s folder
-for your convenience: <https://yadi.sk/d/-cBfNyfBSh_lOA>
+MEGA link to [this repository](https://github.com/Andrew15-5/IMK4)'s folder
+for your convenience: <https://mega.nz/folder/SIAiQYJY#6igJU4HHEe3ssltaCWMpWg>
 
-Yandex.Disk links to books (unarchived):
+MEGA links to books (unarchived):
 
-- [Semester 1](https://yadi.sk/d/8GMdxPS0u2FZkA)
-- [Semester 2](https://yadi.sk/d/eyVk60MeJabWvQ)
-- [Semester 3](https://yadi.sk/d/np_Smxo_xZjSyg)
-- [Semester 4](https://yadi.sk/d/8ExS3demIAFEIQ)
+- [Semester 1](https://mega.nz/folder/TQxyUIqS#_xU7mo_k8_v1CONH0DX2EA)
+- [Semester 2](https://mega.nz/folder/fABghKzZ#IV_bfdzB42dbAPNow27a9Q)
+- [Semester 3](https://mega.nz/folder/vI5SmB4J#lc0kxkz4ZdPQVB_WC-eG8Q)
+- [Semester 4](https://mega.nz/folder/nBwllQYK#Fq3yOhnM5tbhIldpNuYh-A)
 
 ## License
 
