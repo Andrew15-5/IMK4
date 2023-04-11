@@ -143,7 +143,8 @@ libreoffice --convert-to pdf file.doc
 ## Links
 
 MEGA link to [this repository](https://github.com/Andrew15-5/IMK4)'s folder
-for your convenience: <https://mega.nz/folder/SIAiQYJY#6igJU4HHEe3ssltaCWMpWg>
+for your convenience:\
+<https://mega.nz/folder/SIAiQYJY#6igJU4HHEe3ssltaCWMpWg>
 
 MEGA links to books (unarchived):
 
