@@ -1,0 +1,69 @@
+\documentclass[a4paper, 12pt]{extarticle}
+\usepackage{hyperref, fontspec, dirtytalk}
+\usepackage[none]{hyphenat}
+\usepackage[margin=2cm]{geometry}
+\setmainfont{Liberation Serif}
+\hypersetup{pdfauthor=digitized by Andrew Voynov}
+\newcommand\indenton{\setlength\parindent{1.25cm}} \sloppy \pagestyle{empty}
+\begin{document}
+
+\begin{center}
+  \textbf{Operating system}
+\end{center}
+
+An operating system (OS) is software, consisting of programs and data, that runs
+on computers and manages computer hardware resources and provides common
+services for efficient execution of various application software. Management
+tasks include scheduling resource use to avoid conflicts and interference
+between programs. Unlike most programs, which complete a task and terminate, an
+operating system runs indefinitely and terminates only when the computer is
+turned off.
+
+For hardware functions such as input and output and memory allocation, the
+operating system acts as an intermediary between application programs and the
+computer hardware, although the application code is usually executed directly by
+the hardware, but will frequently call the OS or be interrupted by it.
+
+\textbf{Development of operating systems.}
+
+In early computers, the user typed programs onto punched tape or cards, from
+which they were read into the computer. The computer subsequently assembled or
+compiled the programs and then executed them, and the results were then
+transmitted to a printer. It soon became evident that much valuable computer
+time was wasted between users and also while jobs (programs to be executed) were
+being read or while the results were being printed. The earliest operating
+systems consisted of software residing in the computer that handled
+\say{batches} of user jobs --- i.e., sequences of jobs stored on magnetic tape
+that are read into computer memory and executed one at a time without
+intervention by user or operator. Accompanying each job in a batch were
+instructions to the operating system (OS) detailing the resources needed by the
+job --- for example, the amount of CPU time, the files and the storage devices
+on which they resided, the output device, whether the job consisted of a program
+that needed to be compiled before execution, and so forth. From these beginnings
+came the key concept of an operating system as a resource allocator. This role
+became more important with the rise of multiprogramming, in which several jobs
+reside in the computer simultaneously and share resources --- for example, being
+allocated fixed amounts of CPU time in turn. More sophisticated hardware allowed
+one job to be reading data while another wrote to a printer and still another
+performed computations. The operating system was the software that managed these
+tasks in such a way that all the jobs were completed without interfering with
+one another.
+
+Further work was required of the operating system with the advent of interactive
+computing, in which the user enters commands directly at a terminal and waits
+for the system to respond. Processes known as terminal handlers were added to
+the system, along with mechanisms like interrupts (to get the attention of the
+operating system to handle urgent tasks) and buffers (for temporary storage of
+data during input/output to make the transfer run more smoothly). A large
+computer can now interact with hundreds of users simultaneously, giving each the
+perception of being the sole user. The first personal computers used relatively
+simple operating systems, such as some variant of DOS (disk operating system),
+with the main jobs of managing the user's files, providing access to other
+software (such as word processors), and supporting keyboard input and screen
+display. Perhaps the most important trend in operating systems today is that
+they are becoming increasingly machine-independent Hence, users of modern,
+portable operating systems like UNIX, Microsoft Corporation's Windows NT, and
+Linux are not compelled to learn a new operating system each time they purchase
+a new, faster computer (possibly using a completely different processor).
+
+\end{document}
