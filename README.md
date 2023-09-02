@@ -45,6 +45,10 @@ Here you can find lab and hw files, as well as books, lectures and more.
 - msd - Mobile Software Development
 - mlm - Machine Learning Methods
 
+### 7th semester
+
+- is - Information Security
+
 ## Repository structure
 
 ```text
