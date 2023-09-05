@@ -47,6 +47,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 ### 7th semester
 
+- bdpt - Big Data Processing Technology
 - cn - Computer Networks
 - ipm - Information Processing Methods
 - is - Information Security
