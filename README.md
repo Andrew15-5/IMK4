@@ -49,6 +49,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 
 - bdpt - Big Data Processing Technology
 - cn - Computer Networks
+- dsp - Digital Signal Processing
 - ipm - Information Processing Methods
 - is - Information Security
 
