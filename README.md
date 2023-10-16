@@ -52,6 +52,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 - dsp - Digital Signal Processing
 - ipm - Information Processing Methods
 - is - Information Security
+- rlasc - Russian Language and Speech Culture
 
 ## Repository structure
 
