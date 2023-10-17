@@ -48,7 +48,7 @@
   ])
 - доверенность
   #document(width: 7em, height: 10.5em, {
-    next(top + right)[1]
+    next(top + center)[1]
     next(top + center)[Я, ФИО,]
     next(top + left)[п/д ...]
     next(top + left)[доверяю ФИО]
