@@ -54,6 +54,10 @@ Here you can find lab and hw files, as well as books, lectures and more.
 - is - Information Security
 - rlasc - Russian Language and Speech Culture
 
+### 8th semester
+
+- spm - Software Project Management
+
 ## Repository structure
 
 ```text
