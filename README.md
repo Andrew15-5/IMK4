@@ -60,6 +60,7 @@ Here you can find lab and hw files, as well as books, lectures and more.
 - dat - Data Analysis Technologies
 - sd - Software Design
 - spm - Software Project Management
+- wdtt - Wireless Data Transfer Technologies
 
 ## Repository structure
 
